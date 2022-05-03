@@ -114,7 +114,7 @@ function displayAniData(response) {
   if (hasPrequel == true || hasSequel == true) {
     var relationstext = "Has sequel or prequel."
   } else {
-    if (hasSpinOff == true || hasSideStory == true|| hasAlternative == true) {
+    if (hasSpinOff == true || hasSideStory == true || hasAlternative == true) {
       var relationstext = "Has alternate media."
     } else {
       var relationstext = "No other media."
